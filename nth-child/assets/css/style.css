@@ -1,3 +1,11 @@
 table tbody tr:nth-child(1){
     background-color: red;
 }
+
+p:nth-child(2){
+    background-color: yellow;
+}
+
+p:nth-last-child(2){
+    background-color: bisque;
+}
