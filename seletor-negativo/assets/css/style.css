@@ -1,0 +1,7 @@
+.adjetivo{
+    color: green;
+}
+
+header:not(.adjetivo){
+    color:red;
+}
