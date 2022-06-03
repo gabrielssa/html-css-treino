@@ -1,0 +1,7 @@
+div:first-child{
+    background-color: red;
+}
+
+div:last-child{
+    background-color: green;
+}
