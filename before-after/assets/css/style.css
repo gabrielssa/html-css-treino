@@ -19,3 +19,7 @@ p:after{
     margin-left: 28px;
     top: 28px;
 }
+
+span:after{
+    content: "<";
+}
