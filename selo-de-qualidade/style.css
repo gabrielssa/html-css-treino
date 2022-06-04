@@ -1,0 +1,30 @@
+.tarja{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 250px;
+    height: 45px;
+    box-shadow: 0px 0px 10px rgb(184, 184, 184) ;
+
+    background-color: #3E7CC6;
+
+    text-align: center;
+    text-shadow: 0px 0px 3px rgb(82, 82, 82);
+
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 50px;
+    left: -55px;
+}
+
+.tarja a{
+    line-height: 45px;
+    text-decoration: none;
+    color:white;
+
+    border: 1px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 65px;
+    padding-right: 65px;
+
+}
