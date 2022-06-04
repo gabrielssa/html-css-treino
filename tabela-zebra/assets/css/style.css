@@ -1,0 +1,8 @@
+table tr:nth-child(odd){
+    background-color: aquamarine;
+}
+
+table th{
+    font-weight: normal;
+    background-color: #eee;
+}
