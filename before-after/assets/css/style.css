@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+p{
+    background-color: greenyellow;
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+p:after{
+    border: 20px solid transparent;
+    border-color: transparent transparent transparent greenyellow;
+    content: "";
+    position: absolute;
+    display: inline-block;
+    margin-left: 28px;
+    top: 28px;
+}
