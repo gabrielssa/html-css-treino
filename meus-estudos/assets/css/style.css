@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 100px;
+    background-color: #eee;
+}
+
+.container{
+    width: 800px;
+    margin: auto;
+}
+
+.session li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+    align-items: center;
+    padding: 10px;
+}
+
+.sessions-area li,
+.sessions-area ul{
+    list-style-type: none;
+    padding: 0px;
+    margin:0px;
+}
+.session{
+    margin-bottom: 20px;
+}
+
+.sessions-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.sessions-title img{
+    width: 20px;
+    display: block;
+}
+
+.sessions-title img:hover{
+    cursor:pointer;
+}
+
+.session-title--arrow-right{
+    transform:rotate(180deg)
+}
+
+.session-title--day{
+    font-size: 2rem;
+    display: block;
+}
+.session-duration{
+    display:inline-flex;
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+    justify-content: flex-end;
+}
+
+.session-description{
+    margin-left: 20px;
+    width: 720px;
+}
+
+.create-session form{
+    display: flex;
+    flex-direction: row;
+}
+
+.create-session input[name="duration"]{
+    display:block;
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+.create-session textarea{
+    display:block;
+    height: 60px;
+    width: 620px;
+    resize: none;
+    margin-left: 20px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.create-session input[type=submit]{
+    width: 80px;
+    margin-left: 20px;
+    background: linear-gradient(90deg, rgb(103, 233, 103),rgb(39, 238, 39));
+    border: 0;
+}
+
+.create-session input[type=submit]:hover{
+    border: 1px solid blue;
+}
